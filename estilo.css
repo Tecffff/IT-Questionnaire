@@ -1,0 +1,68 @@
+
+
+
+#textos {
+	background-color: #9DCDED;
+	color: black;
+	width: 794px;
+	height: 2400px;
+	display: block;
+	font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	margin: 1px;
+	border-radius: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.borda {
+	background-color: #405461;
+	
+	font-size: 0px;
+}
+
+.topo{
+	background-color: white;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#nome_topo {
+	border: 1px solid black;
+	padding: 8px;
+	background-color: white;
+	border-radius: 15px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin: 15px;
+	font-size: 18px;
+}
+
+input[type=text] {
+	
+	width: 300px;
+}
+
+input[type=email] {
+	width: 300px;
+}
+
+input[type=submit] {
+	width: 80px;
+	height: 30px;
+	background-color: white;
+	margin: auto;
+}
+
+#rodape {
+	background: black;
+	color: white;
+	width: 1349px;
+	height: 25px;
+}

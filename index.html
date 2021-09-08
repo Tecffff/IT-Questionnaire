@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Vaga de TI</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		
+	</head>
+	<body>
+		<!---- Inicio Informações sobre o candidato -->
+		<div class="borda">
+			<div id="textos">
+				<br />
+				<div id="nome_topo">
+					<center><h1 class="texto">Questionario vaga TI</h1></center>
+
+
+					<label for="nome">Insira seu nome completo:</label><br>
+					<input type="Text" name="nome" placeholder="Seu nome">
+					<br>
+
+					<label for="email">Insira seu email:</label><br>
+					<input type="email" name="email" placeholder="Seu email"><br />
+
+					<label for="data">Insira seu telefone:</label><br>
+					<input type="tel" name="telefone" required placeholder="(xx) xxxxx-xxxx">
+					<br>
+				</div>
+				<div id="nome_topo">
+					<label for="data">Insira seu data de nascimento:</label><br>
+					<i><font size="2"> Data</font></i><br />
+					<input type="date" name="data" placeholder="Insira sua data de nascimento aqui">
+					<br>
+				</div>
+				<div id="nome_topo">
+
+					<label for="quest1">O que te atraiu na empresa?</label><br><br />
+					<textarea id="txtArea" placeholder="Responda aqui" rows="3" cols="70"></textarea>
+					<br>
+				</div>
+
+				<div id="nome_topo">
+
+					<label for="quest2">De que maneira você acredita que os seus conhecimentos podem nos ajudar?</label><br><br />
+					<textarea id="txtArea" placeholder="Responda aqui" rows="3" cols="70"></textarea>
+					<br>
+				</div>
+
+				<div id="nome_topo">
+
+
+					<label for="quest3">Possui experiencia na área?</label><br><br />
+					<textarea id="txtArea" placeholder="Responda aqui" rows="3" cols="70"></textarea>
+					<br>
+				</div>
+
+				<!---- fim Informações sobre o candidato -->
+				<!--- Inicio Função do candidato -->
+				<div id="nome_topo">
+					<p>Selecione sua função:</p>
+					<br />
+
+					<input type="Radio" name="profissao">
+					<label for="Analista">Analista</label>
+					<br>
+
+					<input type="Radio" name="profissao">
+					<label for="Programador">Programador</label>
+					<br>
+
+					<input type="Radio" name="profissao">
+					<label for="Dba">Adminstrador de banco de dados</label>
+					<br>
+
+					<input type="Radio" name="profissao">
+					<label for="Designer">Designer</label>
+					<br>
+
+					<input type="Radio" name="profissao">
+					<label for="Infraestrutura">Infraestrutura</label>
+					<br>
+				</div>
+				<!--- fim Função do candidato -->
+				<!-- inicio linguagens do candidato -->
+				<div id="nome_topo">
+					<p>Com quais linguagens de programação você se sente mais confortavel</p>
+					<br />
+
+					<input type="checkbox" name="java">
+					<label>Java</label>
+					<br>
+
+					<input type="checkbox" name="csharp">
+					<label>C, C++ e C# </label>
+					<br>
+
+					<input type="checkbox" name="php">
+					<label>PHP</label>
+					<br>
+
+					<input type="checkbox" name="ruby">
+					<label>Ruby</label>
+					<br>
+
+					<input type="checkbox" name="python">
+					<label>Python</label>
+					<br>
+
+					<input type="checkbox" name="js">
+					<label>Javascript</label>
+					<br>
+
+					<input type="checkbox" name="pearl">
+					<label>Pearl</label>
+					<br>
+
+					<input type="checkbox" name="assembly">
+					<label>Assembly</label>
+					<br>
+				</div>
+				<!--- fim linguagens candidato-->
+				<!---  inicio periodo do canditado -->
+
+				<div id="nome_topo">
+					<p>Qual periodo deseja trabalhar?</p>
+					<br />
+
+					<input type="radio" name="modulo" id="manha">
+					<label for="Primeiro">
+						Manhã
+					</label>
+					<br />
+
+					<input type="radio" name="modulo" id="tarde">
+					<label for="Segundo">
+						Tarde
+					</label>
+					<br />
+					<input type="radio" name="modulo" id="noite">
+					<label for="Terceiro">
+						Noite
+					</label>
+					<br>
+				</div>
+				<!---  fim periodo do canditado -->
+				<!-- Inicio Forma de transporte -->
+				<div id="nome_topo">
+					<p>Forma de transporte:</p>
+					<br />
+
+					<input type="radio" name="turma" id="transporte1">
+					<label>Onibus ou metrô</label>
+					<br />
+
+					<input type="radio" name="turma" id="transporte2">
+					<label>Carro próprio</label>
+					<br>
+				</div>
+				<!--  fim forma de tranporte -->
+				<!-- inicio curriculo -->
+				<div id="nome_topo">
+
+
+					<label for="arquivos"> Insira seu curriculo</label>
+					<br />
+					<input type="file" name="arquivos">
+					<br>
+				</div>
+				<!-- fim curriculo -->
+				<!-- inicio recomendações -->
+				<div id="nome_topo">
+
+					<label for="recomendacoes">Deixe recomendações:</label><br><br />
+					<textarea id="txtArea" rows="5" cols="70"></textarea>
+				</div>
+				<!-- fim recomendações-->
+				<!-- Incio questionario -->
+				<div id="nome_topo">
+					<h2>Questionario</h2>
+					<p>
+						1° - No Windows 10, arquivos podem ser compartilhados por meio do Explorador de Arquivos.
+					</p>
+					<br />
+					<input type="radio" name="quest1">
+					<label for="quest1">Certo</label>
+					<br>
+					<input type="radio" name="quest1">
+					<label for="quest1">Errado</label>
+
+				</div>
+
+				<div id="nome_topo">
+					<p>
+						2° - No MS-Windows 10, em sua configuração padrão, há um aplicativo com funcionalidade de assistente chamado:
+
+					</p>
+					<br />
+					<input type="radio" name="quest2">
+					<label for="quest1">Google Assistente</label>
+					<br>
+					<input type="radio" name="quest2">
+					<label for="quest1">Bia</label>
+					<br>
+					<input type="radio" name="quest2">
+					<label for="quest1">Alexia</label>
+					<br>
+					<input type="radio" name="quest2">
+					<label for="quest1">Siri</label>
+					<br>
+					<input type="radio" name="quest2">
+					<label for="quest1">Cortana</label>
+
+				</div>
+				<div id="nome_topo">
+					<p>
+						3° - No que diz respeito ao programa de navegação Google Chrome, em sua versão mais recente, aos conceitos de organização e de gerenciamento de arquivos e às noções de vírus, worms e pragas virtuais, julgue o item.
+						Com o programa Explorador de Arquivos do Windows 10, é possível visualizar algumas propriedades do arquivo, como, por exemplo, tamanho, data da criação, data de modificação, entre outras.
+					</p>
+					<br />
+					<input type="radio" name="quest3">
+					<label for="quest1">Certo</label>
+					<br>
+					<input type="radio" name="quest3">
+					<label for="quest1">Errado</label>
+
+				</div>
+				<div id="nome_topo">
+					<p>
+						4° - Acerca dos conceitos de hardware, do sistema operacional Windows 10 e do Microsoft Excel 2013, julgue o item.
+						O Windows 10 permite a conversão de texto em fala. Também é possível ouvir um texto lido em voz alta.
+					</p>
+					<br />
+					<input type="radio" name="quest4">
+					<label for="quest1">Certo</label>
+					<br>
+					<input type="radio" name="quest4">
+					<label for="quest1">Errado</label>
+					
+				</div>
+				<center><input type="submit" name="enviar" /></center>
+				
+
+				<!--Fim questionario -->
+				<!-- Link externo -->
+
+
+
+
+
+			</div>
+		</div>
+		<div id="rodape">
+			<marquee behavior="scroll" scrollamount="10" width="60%" direction="right" height="60px">
+				<center><p>Feito por: Fabrício Santos</p></center>
+			</marquee>
+		</div>
+	</body>
+</html>
